@@ -1,7 +1,7 @@
 {
   "name": "npm-cid",
-  "version": "0.1",
-  "author": "Matthieu Bacconnier <matthieu.bacconnier@papiel.fr>",
+  "version": "0.1.0",
+  "author": "Quentin Buathier <quentin.buathier@epitech.eu>",
   "main": "./lib/",
   "repository": {
     "type": "git",
@@ -12,11 +12,8 @@
     "cid",
     "mail"
   ],
-  "dependencies": {
-    
-  },
   "licence": "MIT",
   "engines": {
     "node": ">=0.10"
-  },
+  }
 }
