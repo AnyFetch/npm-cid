@@ -26,4 +26,4 @@ var attachments = [
 console.log(cid('<img src="cid:test@evfeuv">', attachments));
 ```
 
-Support: `support@papiel.fr`.
+Support: `support@anyfetch.com`.
