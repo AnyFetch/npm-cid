@@ -2,10 +2,17 @@
   "name": "npm-cid",
   "version": "0.1.2",
   "author": "Quentin Buathier <quentin.buathier@epitech.eu>",
+  "scripts": {
+    "test": "NODE_ENV=test mocha --recursive -R spec test/ -t 120000 -s 20000"
+  },
   "main": "./lib/",
   "repository": {
     "type": "git",
     "url": "https://github.com/AnyFetch/npm-cid"
+  },
+  "devDependencies": {
+    "mocha": "1.15.x",
+    "should": "4.x.x"
   },
   "keywords": [
     "anyfetch",

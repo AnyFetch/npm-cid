@@ -3,6 +3,8 @@
 
 Replace CID img balise in HTML mail with corresponding attachment
 
+You can test it : `npm test`.
+
 # Usage
 
 You must have a string which is your HTML code and an array of attachments with differents properties :
