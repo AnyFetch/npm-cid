@@ -6,7 +6,7 @@ Replace CID img balise in HTML mail with corresponding attachment
 # Usage
 
 You must have a string which is your HTML code and an array of attachments with differents properties :
-    - filename : the file name
+    - fileName : the file name
     - contentId : the content ID (optionnal)
     - content : the content in base 64 (node buffer or string)
 
@@ -17,7 +17,7 @@ var cid = require('npm-cid');
 
 var attachments = [
   {
-    filename: "test.jpg",
+    fileName: "test.jpg",
     contentId: "test",
     content: "base64contentofimg"
   }
